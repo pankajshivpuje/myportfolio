@@ -1,0 +1,33 @@
+:root {
+  --bg-primary: #0A0A0F;
+  --bg-card: #12121A;
+  --bg-hover: #1A1A2E;
+  --border: #2A2A3E;
+
+  --accent-cyan: #00F0FF;
+  --accent-magenta: #FF006E;
+  --accent-violet: #7B2FFF;
+  --green: #00FF88;
+  --amber: #FFB800;
+
+  --text-primary: #E8E8F0;
+  --text-muted: #8888A0;
+
+  --gradient-cyber: linear-gradient(135deg, var(--accent-cyan), var(--accent-violet));
+  --gradient-hot: linear-gradient(135deg, var(--accent-magenta), var(--accent-violet));
+  --gradient-full: linear-gradient(135deg, var(--accent-cyan), var(--accent-violet), var(--accent-magenta));
+
+  --font-display: "Syne", "Segoe UI", sans-serif;
+  --font-body: "Outfit", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+  --shadow-glow: 0 20px 60px rgba(0, 240, 255, 0.12), 0 0 0 1px rgba(0, 240, 255, 0.3);
+
+  --nav-height: 72px;
+  --section-padding: clamp(4rem, 10vw, 8rem);
+}
